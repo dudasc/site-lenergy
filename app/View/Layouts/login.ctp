@@ -1,5 +1,5 @@
 <?php
-$cakeDescription = __d('cake_dev', 'Lima Móveis - ');
+$cakeDescription = __d('cake_dev', 'Lenergy - ');
 $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 ?>
 <!DOCTYPE html>

@@ -151,7 +151,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcc618', end
 }
 .slideshow img{
 	left:50%;
-	margin-left: -125px; 
+	margin-left: -100px; 
 }
 .box-home{
 	margin-bottom: 40px;
