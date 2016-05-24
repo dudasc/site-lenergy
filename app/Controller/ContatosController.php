@@ -13,7 +13,8 @@ class ContatosController extends AppController {
 			$from = $this->data['Contato']['email'];
 			$subject = 'Contato do Site lenergy.com.br';
 			$fone = $this->data['Contato']['telefone'];
-			$msg = 'Cliente:'.$name.'<br>Telefone: '.$fone . "<br><br>" . $this->data['Contato']['mensagem'];
+			$cidade = $this->data['Contato']['cidade'];
+			$msg = 'Cliente:'.$name.'<br>Telefone: '.$fone . "<br>Cidade: ".$cidade."<br><br>" . $this->data['Contato']['mensagem'];
 
 			$this->Email->sendAs = 'both';
 			// html, text, both
