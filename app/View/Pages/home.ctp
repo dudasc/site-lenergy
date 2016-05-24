@@ -41,10 +41,10 @@
     <div class="col-sm-5 box-home center">
      <a href="projetos" title="Conheça nossos projetos">
       <div class="slideshow">
-        <?= $this->HTml->image('sld1.jpg', array('alt' => 'Lenergy - Energia solar', 'class' => 'img-circle img-responsive center-block'))?>
-        <?= $this->HTml->image('sld2.jpg', array('alt' => 'Lenergy - Energia solar', 'class' => 'img-circle img-responsive center-block'))?>
-        <?= $this->HTml->image('sld3.jpg', array('alt' => 'Lenergy - Energia solar', 'class' => 'img-circle img-responsive center-block'))?>
-        <?= $this->HTml->image('sld4.jpg', array('alt' => 'Lenergy - Energia solar', 'class' => 'img-circle img-responsive center-block'))?>       
+        <?= $this->Html->image('sld1.jpg', array('alt' => 'Lenergy - Energia solar', 'class' => 'img-circle img-responsive center-block'))?>
+        <?= $this->Html->image('sld2.jpg', array('alt' => 'Lenergy - Energia solar', 'class' => 'img-circle img-responsive center-block'))?>
+        <?= $this->Html->image('sld3.jpg', array('alt' => 'Lenergy - Energia solar', 'class' => 'img-circle img-responsive center-block'))?>
+        <?= $this->Html->image('sld4.jpg', array('alt' => 'Lenergy - Energia solar', 'class' => 'img-circle img-responsive center-block'))?>       
       </div>
       </a>
        <h2>CONHEÇA NOSSOS PROJETOS</h2>
