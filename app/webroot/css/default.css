@@ -35,7 +35,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcc618', end
 	border: none;
 	border-top: 6px solid #366393;
 	border-radius: none;
-	background: #FBFBFB;
 	/*background: #fcc618;	*/
 }
 .nav{
@@ -47,14 +46,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcc618', end
 	margin: 0;
 }
 .navbar-nav li a{	
-	padding: 20px 46px 15px 46px;
-	border-bottom: 8px solid #FBFBFB;
+	padding: 20px 35px 20px 35px;
+	border-bottom: 8px solid #eee;
 	color: #000 !important;
-	transition: all 0.1s linear
+	transition: all 0.3s linear
 }
 .navbar-nav li a:hover{
-	font-weight: bolder;
+	
 	border-bottom: 8px solid #366393
+}
+
+.face-icon{
+	padding-top: 5px;
+	padding-bottom: 0px;
+	margin-top: -18px;
+}
+.branco{
+	display: none;
 }
 
 
@@ -163,6 +171,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcc618', end
 .box-home .mais{
 	display: inline-block;
 	background: #fcc618;
+	text-align: left !important;
 	padding: 15px;
 	color: #fff;
 	margin-top: 5px;
@@ -170,6 +179,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcc618', end
 .box-home p{
 	line-height: 200%;
 }
+.center{
+	text-align: center !important;
+}
+
+
 
 /**********SERVIÇOS***************/
 .lista-servico{
@@ -180,7 +194,10 @@ p{
 	color: #000;
 	font-size: 1em !important
 }
-
+hr{
+	border-bottom: 1px solid #657A8E;
+	border-top: 1px solid #175491;
+}
 h1{
 	font-size: 2.8em;
 	/*background: #fcc618;
@@ -194,6 +211,12 @@ h1{
 
 
 @media (max-width: 767px) {
+	.branco{
+		display: block;
+	}
+	.azul{
+		display: none;
+	}
 	.nav{
 		float: right;	    
 	}

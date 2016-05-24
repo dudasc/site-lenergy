@@ -12,10 +12,10 @@
       <img src="img/01.jpg" alt="">
     </div>
     <div class="item">
-      <img src="img/02.jpg" alt="">
+      <img src="img/03.jpg" alt="">
     </div>
     <div class="item">
-      <img src="img/03.jpg" alt="">
+      <img src="img/02.jpg" alt="">
     </div>
   </div>
 
@@ -33,11 +33,12 @@
 <div class="row">
   <div class="col-sm-1"></div>
   <div class="col-sm-5 box-home">
+
     <h2>CONHEÇA A LENERGY</h2>
     <p>A LENERGY trabalha no mercado de geração distribuída, com foco na micro e mini geração para atender a crescente demanda de clientes residenciais, comerciais ou industriais que buscam promover a sustentabilidade, ganhando economia e inovação tecnológica...</p>
     <a class="mais" href="sobre">+ Saiba mais</a>
   </div>
-    <div class="col-sm-5 box-home">
+    <div class="col-sm-5 box-home center">
      <a href="projetos" title="Conheça nossos projetos">
       <div class="slideshow">
         <?= $this->HTml->image('sld1.jpg', array('alt' => 'Lenergy - Energia solar', 'class' => 'img-circle img-responsive center-block'))?>

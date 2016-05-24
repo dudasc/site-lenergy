@@ -59,7 +59,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 			});
 			var owl = $('.owl-carousel');
               owl.owlCarousel({
-                margin: 0,
+                margin: 4,
                 nav: true,
                 dots: false,
                 responsive: {

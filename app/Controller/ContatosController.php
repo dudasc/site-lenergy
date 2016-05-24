@@ -22,7 +22,6 @@ class ContatosController extends AppController {
 			$this->set('from', $name);
 			$this->set('msg', $msg);
 			$this->Email->to = 'contato@lenergy.com.br';
-			//$this -> Email -> to = 'eduardoscoelho@hotmail.com';
 			$this->Email->subject = $subject;
 			$this->Email->replyTo = $from;
 			$this->Email->from = $name . '<' . $from . '>';
