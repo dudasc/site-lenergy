@@ -67,7 +67,7 @@ class Configure {
  */
 	public static function bootstrap($boot = true) {
 		if ($boot) {
-			self::_appDefaults(); 
+			self::_appDefaults();
 
 			if (!include APP . 'Config' . DS . 'core.php') {
 				trigger_error(__d('cake_dev',
