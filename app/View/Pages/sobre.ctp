@@ -18,6 +18,14 @@
 		<p>Apresentar soluções em geração de energia, contando com tecnologia e sustentabilidade. </p>
 		<h3><strong>VISÃO</strong></h3>
 		<p>Consolidar a tecnologia fotovoltaica como alternativa sustentável e economicamente rentável, abrangendo um público cada vez maior.</p>
+		<h3><strong>VALORES</strong></h3>
+			<ul>
+				<li>Comprometimento</li>				
+				<li>Ética</li>
+				<li>Excelência e Qualidade</li>
+				<li>Inovação</li>				
+				<li>Sustentabilidade econômica, social e ambiental</li>
+				</ul>
 		<br><br><br>
 		</div>
 	</div>

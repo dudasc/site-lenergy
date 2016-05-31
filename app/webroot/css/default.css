@@ -114,7 +114,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcc618', end
 .footer span{
 	display: block;
 	font-size: 1.3em;
-	font-weight: bolder;
 	margin-bottom: 8px;
 	color: #fff;
 }
