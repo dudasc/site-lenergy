@@ -83,4 +83,9 @@ class PagesController extends AppController {
 		$this->layout = 'default';
 		$this->set('title_for_layout', 'Sobre a Lenergy');
 	}
+
+	public function como_funciona() {
+		$this->layout = 'default';
+		$this->set('title_for_layout', 'Como funciona');
+	}
 }

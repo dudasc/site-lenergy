@@ -46,7 +46,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcc618', end
 	margin: 0;
 }
 .navbar-nav li a{
-	padding: 20px 35px 20px 35px;
+	padding: 20px;
 	border-bottom: 8px solid #eee;
 	color: #000 !important;
 	transition: all 0.3s linear
@@ -103,28 +103,33 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcc618', end
 .footer{
 	height: auto;
 	margin: 0PX !important;
-	padding:10px 0px 10px 0px;
 	background: #f9d054; /* Old browsers */
 	background: -moz-linear-gradient(top,  #f9d054 1%, #f4c022 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top,  #f9d054 1%,#f4c022 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom,  #f9d054 1%,#f4c022 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9d054', endColorstr='#f4c022',GradientType=0 ); /* IE6-9 */
 	background: #366393;
+	padding-top: 20px;
 }
 .footer span{
 	display: block;
-	font-size: 1.3em;
-	margin-bottom: 8px;
+	font-size: 1.1em;
+	margin-bottom: 5px;
 	color: #fff;
 }
 .footer p{
 	color: #fff;
+	
+}
+.footer p.endereco{
+	margin-top: 5px;
 }
 
 .footer hr{
 	border-bottom: 1px solid #657A8E;
 	border-top: 1px solid #175491;
 }
+
 
 /*******CONTATO***********/
 .dados-contato{
@@ -237,6 +242,12 @@ h1{
 		border-bottom: 1px solid #999;
 		font-weight: normal;
 	}
+	.footer p{
+	margin-top: 0px;
+}
+.footer p.endereco{
+	margin-top: 0px;
+}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

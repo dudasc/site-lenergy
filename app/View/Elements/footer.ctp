@@ -2,12 +2,11 @@
 	<div class="container-fluid footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-8">
-					<p>Rua Frei Gregório Dal Monte, 821<br> Bairro Centro, Turvo/SC - CEP:
-					88930-000<br>(48) 9953-8683</p>
+				<div class="col-sm-9">
+					<p class="endereco">Rua Luiz Cirimbelli, 775. Bairro Centro, Turvo - SC<br>contato@lenergy.com.br - (48) 9953-8683<br>CNPJ: 23.732.772/0001-13</p>
 				</div>
-				<div class="col-sm-4">
-					<span>Simule seu sistema fotovoltaico:</span>
+				<div class="col-sm-3">
+					<!--<span>Simule seu sistema fotovoltaico:</span>-->
 					<a href="http://www.americadosol.org/simulador" target="_blank">
 					<?= $this->HTml->image('lg3.jpg', array('title' => '', 'alt' => '', 'class' => 'img-thumbnail'))?></a>
 				</div>

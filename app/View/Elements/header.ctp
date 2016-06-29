@@ -25,15 +25,14 @@
         <ul class="nav navbar-nav">
         	<li><?php echo $this->Html->link('PÁGINA INICIAL', array('controller' => 'pages', 'action' => 'index'), array('title' => 'Home')); ?></li>
           <li><?php echo $this->Html->link('SOBRE A LENERGY', array('controller' => 'pages', 'action' => 'sobre'), array('title' => 'Sobre a empresa')); ?></li>
+          <li><?php echo $this->Html->link('COMO FUNCIONA', array('controller' => 'pages', 'action' => 'como_funciona'), array('title' => 'Como funciona')); ?></li>
   	    <li><?php echo $this->Html->link('SOLUÇÕES E SERVIÇOS', array('controller' => 'servicos', 'action' => 'index'), array('title' => 'Soluções e serviços')); ?></li>
           <li><?php echo $this->Html->link('CLIENTES E PROJETOS', array('controller' => 'projetos', 'action' => 'index'), array('title' => 'Conheça nossos cliente e os projetos já desenvolvidos')); ?></li>
           <li><?php echo $this->Html->link('ENTRE EM CONTATO', array('controller' => 'contatos', 'action' => 'index'), array('title' => 'Entre em contato conosco')); ?></li>
-          <li>
-                                <a href="https://www.facebook.com/lenergyenergiasolar/" title ="Acesse nossa página no facebook!" target="_blank">
+          <li><a href="https://www.facebook.com/lenergyenergiasolar/" title ="Acesse nossa página no facebook!" target="_blank">
                             <?php echo $this->Html->image('face-icon.png', array('alt' => 'Acesse nossa página no facebook!', 'class' => 'face-icon azul')); ?>
                             <?php echo $this->Html->image('face-icon-b.png', array('alt' => 'Acesse nossa página no facebook!', 'class' => 'face-icon branco')); ?>
-                      </a>
-                            </li>
+                      </a></li>
         </ul>      
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

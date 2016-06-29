@@ -31,6 +31,7 @@
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 
 	Router::connect('/sobre', array('controller' => 'pages', 'action' => 'sobre'));
+	Router::connect('/como-funciona', array('controller' => 'pages', 'action' => 'como_funciona'));
 	Router::connect('/admin', array('controller' => 'pages', 'action' => 'index', 'admin' => true));
 
 	Router::connect('/admin/servicos/add/:id/',
