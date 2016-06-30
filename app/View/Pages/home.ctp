@@ -35,14 +35,13 @@
 </div>
 <div class="container">
 <div class="row">
-  <div class="col-sm-1"></div>
-  <div class="col-sm-5 box-home">
-
+  
+  <div class="col-sm-5 col-sm-offset-1 box-home">
     <h2>CONHEÇA A LENERGY</h2>
     <p>A LENERGY trabalha no mercado de geração distribuída, com foco na micro e mini geração para atender a crescente demanda de clientes residenciais, comerciais ou industriais que buscam promover a sustentabilidade, ganhando economia e inovação tecnológica...</p>
     <a class="mais" href="sobre">+ Saiba mais</a>
   </div>
-    <div class="col-sm-5 box-home center">
+    <div class="col-sm-6 box-home text-center">
      <a href="projetos" title="Conheça nossos projetos">
       <div class="slideshow">
         <?= $this->Html->image('sld1.jpg', array('alt' => 'Lenergy - Energia solar', 'class' => 'img-circle img-responsive center-block'))?>

@@ -43,10 +43,10 @@
 			<?= $this->Form->end()?>
 		</div>
 		<div class="col-md-6 dados-contato">
-			<p><span>Como nos encontrar?</span></p>
+			<!--<p><span>Como nos encontrar?</span></p>-->
 			<p><span>Endereço</span>
 			Rua Luiz Cirimbelli, 775<br> 
-					Bairro Centro, Turvo/SC<br> 
+					Bairro Centro, Turvo - SC<br> 
 					CEP: 88930-000</p>
 			<p><span>Telefone</span>(48) 9953-8683</p>
 			<p><span>E-mail</span>contato@lenergy.com.br</p>		

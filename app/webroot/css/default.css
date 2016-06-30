@@ -69,7 +69,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcc618', end
 /*******Projetos**********/
 .tit-projeto{
 	font-weight: bolder;
-	color: #333;
 	font-size: 2.4em;
 }
 .dt-projeto{
@@ -143,8 +142,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcc618', end
 	font-size: 1.4em;
 }
 .dados-contato p:first-child span{
-	text-shadow: 1px 1px 1px #999;
-	color: #fcc618;
+	/*text-shadow: 1px 1px 1px #999;
+	color: #fcc618;*/
 	font-size: 2.5em;
 }
 .mapa-contato iframe{
@@ -186,11 +185,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcc618', end
 .box-home p{
 	line-height: 200%;
 }
-.center{
-	text-align: center !important;
-}
-
-
 
 /**********SERVIÇOS***************/
 .lista-servico{
@@ -210,6 +204,9 @@ h1{
 	display: inline-block;
 	margin: 7px 0px;
 	padding: 20px 18px 18px 15px;
+}
+h2, h3{
+	color: #366393
 }
 
 
