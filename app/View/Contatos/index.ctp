@@ -17,15 +17,23 @@
 			<div class="form-group">
 				<?= $this->Form->input('nome', array( 'type' => 'text', 'class' => 'form-control  input-lg')); ?>
 			</div>
-		 	<div class="form-group">
-		 		<?= $this->Form->label('E-mail');?>
-			    <?= $this->Form->email('email', array('class' => 'form-control  input-lg')); ?>
-		    </div>
 			<div class="form-group">
 			<?= $this->Form->input('cidade', array( 'type' => 'text', 'class' => 'form-control  input-lg')); ?>
-			</div>			  
+			</div>	
+		 	<div class="form-group">
+		 		<?= $this->Form->label('E-mail');?>
+		 		<div class="input-group">
+		 			<span class="input-group-addon">@</span>
+			    	<?= $this->Form->email('email', array('class' => 'form-control  input-lg')); ?>
+			    </div>
+		    </div>					  
 			<div class="form-group">
-			<?= $this->Form->input('telefone', array( 'type' => 'text', 'class' => 'form-control  input-lg')); ?>
+			<?= $this->Form->label('Telefone');?>
+				<div class="input-group">
+					<span class="input-group-addon">
+					<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></span>
+				<?= $this->Form->tel('telefone', array( 'type' => 'text', 'class' => 'form-control  input-lg')); ?>
+				</div>
 			</div>
 			<div class="form-group">
 			<?= $this->Form->label('Mensagem');?>
