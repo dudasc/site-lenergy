@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-9">
-					<p class="endereco">Rua Luiz Cirimbelli, 775. Bairro Centro, Turvo - SC<br>contato@lenergy.com.br - (48) 9953-8683<br>CNPJ: 23.732.772/0001-13</p>
+					<p>Rua Luiz Cirimbelli, 775. Bairro Centro, Turvo - SC<br>contato@lenergy.com.br - (48) 9953-8683<br>CNPJ: 23.732.772/0001-13</p>
 				</div>
 				<div class="col-sm-3">
 					<!--<span>Simule seu sistema fotovoltaico:</span>-->

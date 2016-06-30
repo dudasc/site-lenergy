@@ -108,25 +108,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcc618', end
 	background: linear-gradient(to bottom,  #f9d054 1%,#f4c022 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9d054', endColorstr='#f4c022',GradientType=0 ); /* IE6-9 */
 	background: #366393;
-	padding-top: 20px;
+	padding: 20px 0px;
 }
-.footer span{
-	display: block;
-	font-size: 1.1em;
-	margin-bottom: 5px;
-	color: #fff;
-}
+
 .footer p{
-	color: #fff;
-	
+	color: #fff;	
 }
 .footer p.endereco{
-	margin-top: 5px;
+	
 }
 
 .footer hr{
 	border-bottom: 1px solid #657A8E;
 	border-top: 1px solid #175491;
+	margin: 15px 0px 10px 0px;
 }
 
 
