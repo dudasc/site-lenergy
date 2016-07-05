@@ -9,10 +9,10 @@
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <div class="item">
+    <div class="item active">
       <img src="img/07.jpg" alt="">
     </div>
-    <div class="item active">
+    <div class="item">
       <img src="img/04.jpg" alt="">
     </div>
     <div class="item">
