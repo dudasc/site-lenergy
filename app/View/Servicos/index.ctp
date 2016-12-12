@@ -26,7 +26,7 @@
 		endforeach;
 		?>
 	
-	<div class="row">
+	<!--<div class="row">
 		<div class="col-sm-12">
 			<hr>
 			<p><strong>Letícia Toreti Scarabelot</strong><br>
@@ -34,6 +34,6 @@
 					CREA/SC 127283-2</p>
 			<br><br><br>
 		</div>
-	</div>
+	</div>-->
 </div>
 

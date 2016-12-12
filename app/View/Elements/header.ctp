@@ -33,6 +33,11 @@
                             <?php echo $this->Html->image('face-icon.png', array('alt' => 'Acesse nossa página no facebook!', 'class' => 'face-icon azul')); ?>
                             <?php echo $this->Html->image('face-icon-b.png', array('alt' => 'Acesse nossa página no facebook!', 'class' => 'face-icon branco')); ?>
                       </a></li>
+
+                      <li><a href="https://www.instagram.com/lenergy_/" title ="Acesse nosso perfil no Instagram!" target="_blank">
+                            <?php echo $this->Html->image('insta-icon.png', array('alt' => 'Acesse nosso perfil no Instagram!', 'class' => 'face-icon azul')); ?>
+                            <?php echo $this->Html->image('insta-icon-b.png', array('alt' => 'Acesse nosso perfil no Instagram!', 'class' => 'face-icon branco')); ?>
+                      </a></li>
         </ul>      
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

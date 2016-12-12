@@ -2,13 +2,18 @@
 	<div class="container-fluid footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-9">
-					<p>Rua Luiz Cirimbelli, 775. Bairro Centro, Turvo - SC<br>contato@lenergy.com.br - (48) 9953-8683<br>CNPJ: 23.732.772/0001-13</p>
+				<div class="col-sm-7">
+				<address>
+					<p>Rua Luiz Cirimbelli, 775. Bairro Centro, Turvo - SC<br>contato@lenergy.com.br - (48) 99953-8683<br>CNPJ: 23.732.772/0001-13</p>
+					</address>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-sm-5">
 					<!--<span>Simule seu sistema fotovoltaico:</span>-->
 					<a href="http://www.americadosol.org/simulador" target="_blank">
-					<?= $this->HTml->image('lg3.jpg', array('title' => '', 'alt' => '', 'class' => 'img-thumbnail'))?></a>
+					<?= $this->Html->image('lg3.jpg', array('title' => '', 'alt' => '', 'class' => 'img-thumbnail'))?></a>
+					<a href="http://www.energyshop.com.br" target="_blank">
+					<?= $this->Html->image('lg4.jpg', array('title' => '', 'alt' => '', 'class' => 'img-thumbnail'))?></a>
+
 				</div>
 				<div class="col-sm-12">	
 				<hr>			

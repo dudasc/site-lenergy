@@ -26,7 +26,7 @@
 					$foto =  "img/uploads/projetos/".$foto['FotoProjeto']['nome'];
 					//$thumb = 'http://placehold.it/750x450';
 					
-			 		echo '<a href="'.$foto.'" class=" lightview" 
+			 		echo '<a href="'.$foto.'" class="lightview" 
 			    	data-lightview-group="example"
 		 			data-lightview-caption="">'.$thumb.'</a>';		 			
 		 			

@@ -2,6 +2,7 @@
 
 body{
 	font-family: 'Roboto', sans-serif !important;
+		line-height: 170%;
 }
 
 header{
@@ -56,6 +57,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcc618', end
 	border-bottom: 8px solid #366393
 }
 
+.nav>li>a{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
 .face-icon{
 	padding-top: 5px;
 	padding-bottom: 0px;
@@ -68,8 +74,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcc618', end
 
 /*******Projetos**********/
 .tit-projeto{
-	font-weight: bolder;
-	font-size: 2.4em;
+	/*font-size: 2.4em;*/
 }
 .dt-projeto{
 	color: #999;
@@ -101,7 +106,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcc618', end
 /*******RODAPÉ*******/
 .footer{
 	height: auto;
-	margin: 0PX !important;
+	margin: 60px 0px 0px 0px !important;
 	background: #f9d054; /* Old browsers */
 	background: -moz-linear-gradient(top,  #f9d054 1%, #f4c022 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top,  #f9d054 1%,#f4c022 100%); /* Chrome10-25,Safari5.1-6 */
@@ -136,7 +141,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcc618', end
 .dados-contato p:first-child span{
 	/*text-shadow: 1px 1px 1px #999;
 	color: #fcc618;*/
-	font-size: 2.5em;
+	
 }
 .mapa-contato iframe{
 	width: 100%;
@@ -184,8 +189,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcc618', end
 
 /*********GERAL***********/
 p{
-	color: #000;
-	font-size: 1em !important
+	color: #333;
+
+	font-size: 1.1em !important
 }
 h1{
 	font-size: 2.8em;
@@ -198,7 +204,9 @@ h1{
 	padding: 20px 18px 18px 15px;
 }
 h2, h3{
-	color: #366393
+	color: #366393;
+	font-weight: bolder;
+	padding-bottom: 10px;
 }
 
 
@@ -231,12 +239,15 @@ h2, h3{
 		border-bottom: 1px solid #999;
 		font-weight: normal;
 	}
+	p{
+		padding-bottom: 15px;
+	}
 	.footer p{
 	margin-top: 0px;
-}
-.footer p.endereco{
-	margin-top: 0px;
-}
+	}
+	.footer p.endereco{
+		margin-top: 0px;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
